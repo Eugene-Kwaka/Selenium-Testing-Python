@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "seltestdemo"
+version = "0.1.0"
+description = ""
+authors = ["Eugene Kwaka <eugenekwaka@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^7.1.2"
+pytest-xdist = "^2.5.0"
+selenium = "^4.2.0"
+autopep8 = "^1.6.0"
+flake8 = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

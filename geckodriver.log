@@ -1,0 +1,25 @@
+1654991765354	geckodriver	INFO	Listening on 127.0.0.1:14503
+1654991768553	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14504" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofilel44LQx"
+1654991774127	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:14504
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofilel44LQx\\search.json.mozlz4", (void 0)))
+1654991795621	Marionette	INFO	Listening on port 14568
+Read port: 14568
+1654991796283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:14504/devtools/browser/1602c202-a6a3-43de-bda1-8254ff560ff1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://lambdatest.github.io"
+1654991906338	Marionette	INFO	Stopped listening on port 14568
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654992146650	geckodriver	INFO	Listening on 127.0.0.1:1182
+1654992149487	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofile9V1agw"
+1654992151220	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:1183
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofile9V1agw\\search.json.mozlz4", (void 0)))
+1654992158720	Marionette	INFO	Listening on port 1222
+DevTools listening on ws://localhost:1183/devtools/browser/8099469a-d14e-41b2-9af0-f8877bcfdf99
+Read port: 1222
+1654992158997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://lambdatest.github.io"
+1654992174411	Marionette	INFO	Stopped listening on port 1222
