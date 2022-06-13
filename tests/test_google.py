@@ -14,8 +14,8 @@ from decouple import config
 # Desired Capabilities according to SELENIUM 4
 ch_capabilities = {
 		'LT:Options' : {
-			"user" : "kwakaeugene",
-			"accessKey" : "5mc18hQPRBIowlR4gQqR7IDeII54rkKkxWIf5X8ljXQoyZsPbw",
+			"user" : "<my username>",
+			"accessKey" : "<my access_key>",
 			"build" : "Porting test for LambdaTest (Chrome)",
 			"name" : "Porting test for LambdaTest (Chrome)",
 			"platformName" : "Windows 10"
@@ -27,9 +27,9 @@ ch_capabilities = {
 
 def test_lambdatest_google():
     # LambdaTest Profile username
-    user_name = ""
+    user_name = "<my username>"
     # LambdaTest Profile access_key
-    app_key = ""
+    app_key = "<my access_key>"
     # Remote Url to connect to our instance of LambdaTest
     remote_url = "https://" + user_name + ":" + app_key + "@hub.lambdatest.com/wd/hub"
     # creating an instance of Google Chrome based on the remote url and the desired capabilities
