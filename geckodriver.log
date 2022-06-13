@@ -23,3 +23,44 @@ Read port: 1222
 1654992158997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://lambdatest.github.io"
 1654992174411	Marionette	INFO	Stopped listening on port 1222
+1655111750953	geckodriver	INFO	Listening on 127.0.0.1:8700
+1655111753507	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofile75ofnw"
+1655111769372	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:8701
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofile75ofnw\\search.json.mozlz4", (void 0)))
+1655111801169	Marionette	INFO	Listening on port 8846
+Read port: 8846
+1655111802075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:8701/devtools/browser/05fde32d-84fc-4e5f-9b20-e9cab3d858ef
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://lambdatest.github.io"
+1655111821642	Marionette	INFO	Stopped listening on port 8846
+1655111990399	geckodriver	INFO	Listening on 127.0.0.1:9029
+1655111993424	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9030" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofileeXNosU"
+1655111998816	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:9030
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EUGENE~1\\AppData\\Local\\Temp\\rust_mozprofileeXNosU\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 765))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1655112046406	Marionette	INFO	Listening on port 9124
+Read port: 9124
+1655112048354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:9030/devtools/browser/c850d450-2474-42a8-9af6-805783b68fe8
+1655112064529	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://lambdatest.github.io"
+1655112074510	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1655112082510	Marionette	INFO	Stopped listening on port 9124
+[Parent 14176, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 14176, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

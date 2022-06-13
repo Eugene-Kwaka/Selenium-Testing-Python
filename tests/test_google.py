@@ -7,13 +7,37 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 # Suspends the execution for a specified time duration. NOT CONSIDERED SELENIUM BEST PRACTICE
 from time import sleep
+from decouple import config
 
 
+
+# Desired Capabilities according to SELENIUM 4
+ch_capabilities = {
+		'LT:Options' : {
+			"user" : "kwakaeugene",
+			"accessKey" : "5mc18hQPRBIowlR4gQqR7IDeII54rkKkxWIf5X8ljXQoyZsPbw",
+			"build" : "Porting test for LambdaTest (Chrome)",
+			"name" : "Porting test for LambdaTest (Chrome)",
+			"platformName" : "Windows 10"
+		},
+		"browserName" : "Chrome",
+		"browserVersion" : "102.0",
+	}
 
 
 def test_lambdatest_google():
-    # creating an instance of Google Chrome Browser
-    chrome_driver = webdriver.Chrome(executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
+    # LambdaTest Profile username
+    user_name = ""
+    # LambdaTest Profile access_key
+    app_key = ""
+    # Remote Url to connect to our instance of LambdaTest
+    remote_url = "https://" + user_name + ":" + app_key + "@hub.lambdatest.com/wd/hub"
+    # creating an instance of Google Chrome based on the remote url and the desired capabilities
+    chrome_driver = webdriver.Remote(command_executor = remote_url, desired_capabilities = ch_capabilities)
+
+    """ ## creating an instance of Google Chrome Browser  which is referenced by the the Chrome WebDriver's path
+        ## chrome_driver = webdriver.Chrome(executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')"""
+    
     # Visit the Url where I will conduct the test
     chrome_driver.get('https://www.google.com')
     # This will maximize the window interface of the driver class in this case it's Chrome
